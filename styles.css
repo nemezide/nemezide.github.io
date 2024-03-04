@@ -5,12 +5,12 @@
   background: no-repeat center url("mango.bg"); /* Путь к картинке */
   background-size: 1000px; /* Растягиваем  фон по высоте и ширине */
   height: 800px; /* Высота блока */
+  width: 1000px;
 }
 .header{
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  width:1000px;
   padding: 0 28px 0 28px; 
 
 }
