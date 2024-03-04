@@ -16,6 +16,10 @@
 body{
   font-family: "FirsNeue", serif;
 }
+h1{
+  font-size:155px;
+  margin: 0 0 0 40px; 
+}
 .hero-screen-wrapper {
   display: flex;
   flex-direction: column;
