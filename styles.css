@@ -32,5 +32,7 @@ h1{
   flex-direction: row;
   justify-content:space-between;
   padding: 0 28px 0 28px; 
-
+}
+.header .logo {
+  flex: 1;
 }
