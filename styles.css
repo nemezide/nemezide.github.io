@@ -17,8 +17,9 @@ body{
   font-family: "FirsNeue", serif;
 }
 h1{
-  font-size:155px;
-  margin: 0 0 0 40px; 
+  font-size: 105px;
+  margin: 0 0 40px 0; 
+  width: 250px;
 }
 .hero-screen-wrapper {
   display: flex;
