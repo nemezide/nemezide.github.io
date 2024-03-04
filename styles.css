@@ -1,0 +1,16 @@
+.hero-screen-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: no-repeat center url("https://dobrovserdce.ru/images/2022/11/02/kot%20Fedya_large.jpeg"); /* Путь к картинке */
+  background-size: 1000px; /* Растягиваем  фон по высоте и ширине */
+  height: 800px; /* Высота блока */
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width:1000px;
+  padding: 0 28px 0 28px; 
+
+}
