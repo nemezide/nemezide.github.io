@@ -3,9 +3,8 @@
   flex-direction: column;
   align-items: center;
   background: no-repeat center url("/mango.bg"); /* Путь к картинке */
-  background-size: 1000px; /* Растягиваем  фон по высоте и ширине */
-  height: 800px; /* Высота блока */
-  width: 1000px;
+
+
 }
 .header{
   display: flex;
