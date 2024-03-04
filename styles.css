@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: no-repeat center url("/mango.bg"); /* Путь к картинке */
+  background: no-repeat center url("mangobg.png"); /* Путь к картинке */
 
 
 }
