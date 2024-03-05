@@ -106,9 +106,7 @@ a:hover {
   margin: 0 5.9px 60px 0;
 }
 .hero h2{
-  padding-right: 7.7px;
-  margin-top: 1.1px;
-  margin-bottom:11.5px;
+  margin: 1.1px; 7.7px 11.5px 0;
   line-height:26.8px;
 }
 .footer{
