@@ -1,17 +1,17 @@
 @font-face {
   font-family: FirsNeue;
   src: url(fonts/TT-Firs-Neue-Regular.woff) format('woff');
-  font-weight: regular;
+  font-weight: 400;
 }
 @font-face {
   font-family: FirsNeue;
   src: url(fonts/TT-Firs-Neue-Medium.woff) format('woff');
-  font-weight: medium;
+  font-weight: 600;
 }
 @font-face {
   font-family: FirsNeue;
   src: url(fonts/TT-Firs-Neue-DemiBold.woff) format('woff');
-  font-weight: bold;
+  font-weight: 800;
 }
 body {
   font-family: FirsNeue;
