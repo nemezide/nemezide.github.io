@@ -73,6 +73,7 @@ a:hover {
   gap: 15.59px;
   list-style: none; 
   margin: 0;
+  padding:0;
  }
 .breadcrumb {
   display: flex;
@@ -103,7 +104,7 @@ a:hover {
   text-align:center;
 }
 .hero h1{
-  padding:0 6px 6px 0;
+  margin: 0 5.9px 0px 0;
 }
 .hero h2{
   padding-right: 7.7px;
