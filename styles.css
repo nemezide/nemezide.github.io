@@ -56,16 +56,16 @@ a:hover {
   flex-direction: column;
   align-items: center;
   background-image: url("https://nemezide.github.io/mangobg.png");
-  height: 784px;
-  padding:16px 19px 0 19px;
+  padding: 16px 19px 0 19px;
+  aspect-ratio: 1000/784;
 }
 .header {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom:1px;
+  margin-bottom: 1px;
 }
 .menu ul {
   display: flex;
