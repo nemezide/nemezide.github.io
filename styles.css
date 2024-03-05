@@ -57,7 +57,7 @@ a:hover {
   align-items: center;
   background-image: url("https://nemezide.github.io/mangobg.png");
   padding: 16px 19px 0 19px;
-  height:784px;
+  aspect-ratio: 1000/815;
 }
 .header {
   width: 100%;
