@@ -14,15 +14,13 @@
   font-weight: 800;
 }
 body {
-  font-family: FirsNeue;
-  font-size:14px;
   padding:0;
   margin:0;
   background: #F5F5F5;
+  font:14px "FirsNeue", sans-serif;
 }
 h1 {
-  font-size: 105.2px;
-  line-height: 95.5px;
+  font:105.2px/95.5px sans-serif;
   font-feature-settings: 'ss01' on;
   letter-spacing: 0.4px;
   font-weight: 800;
