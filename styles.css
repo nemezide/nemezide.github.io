@@ -1,119 +1,138 @@
 @font-face {
-  font-family: FirsNeue;
-  src: url(fonts/TT-Firs-Neue-Regular.woff) format('woff');
-  font-weight: 400;
-} 
-@font-face {
-  font-family: FirsNeue;
-  src: url(fonts/TT-Firs-Neue-Medium.woff) format('woff');
-  font-weight: 600;
+    font-family: FirsNeue;
+    src: url(fonts/TT-Firs-Neue-Regular.woff) format('woff');
+    font-weight: 400;
 }
+
 @font-face {
-  font-family: FirsNeue;
-  src: url(fonts/TT-Firs-Neue-DemiBold.woff) format('woff');
-  font-weight: 800;
+    font-family: FirsNeue;
+    src: url(fonts/TT-Firs-Neue-Medium.woff) format('woff');
+    font-weight: 600;
 }
+
+@font-face {
+    font-family: FirsNeue;
+    src: url(fonts/TT-Firs-Neue-DemiBold.woff) format('woff');
+    font-weight: 800;
+}
+
 body {
-  font-family: FirsNeue;
-  font-size:14px;
-  padding:0;
-  margin:0;
-  background: #F5F5F5;
+    font-family: FirsNeue;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    background: #F5F5F5;
 }
+
 h1 {
-  font-size: 105.2px;
-  line-height: 95.5px;
-  font-feature-settings: 'ss01' on;
-  letter-spacing: 0.4px;
-  font-weight: 800;
+    font-size: 105.2px;
+    line-height: 95.5px;
+    font-feature-settings: 'ss01' on;
+    letter-spacing: 0.4px;
+    font-weight: 800;
 }
+
 h2 {
-  font-size: 20px;
-  font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
 }
+
 a {
-  color: black;
-  text-decoration: none;
-  text-decoration-color: black;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
 }
+
 a:hover {
-  color: grey;
+    color: grey;
 }
 
 .logo {
-  font-size: 18px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 1.1px;
-  margin-left:1.7px;
-} 
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-left: 1.7px;
+}
+
 .wrapper {
-  width: 1000px;
-  margin: 0 auto;
+    width: 1000px;
+    margin: 0 auto;
 }
+
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("https://nemezide.github.io/mangobg.png");
-  padding: 16px 19px 0 19px;
-  aspect-ratio: 1000/815;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://nemezide.github.io/mangobg.png");
+    padding: 16px 19px 0 19px;
+    aspect-ratio: 1000/815;
 }
+
 .header {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1px;
 }
+
 .menu ul {
-  display: flex;
-  gap: 15.59px;
-  list-style: none; 
-  margin: 0 1px 0 0;
-  padding:0;
- }
+    display: flex;
+    gap: 15.59px;
+    list-style: none;
+    margin: 0 1px 0 0;
+    padding: 0;
+}
+
 .breadcrumb {
-  display: flex;
-  width:100%;
-  margin:0 0 56px 2px;
+    display: flex;
+    width: 100%;
+    margin: 0 0 56px 2px;
 }
-.breadcrumb a{
-  text-decoration: underline;
-  text-underline-offset: 1.6px;
-  text-decoration-thickness: .5px;  
+
+.breadcrumb a {
+    text-decoration: underline;
+    text-underline-offset: 1.6px;
+    text-decoration-thickness: .5px;
 }
+
 .breadcrumb ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 .breadcrumb li:not(:last-child)::after {
-  display: inline-block;
-  margin: 0 3.8px;
-  content: ">";
+    display: inline-block;
+    margin: 0 3.8px;
+    content: ">";
 }
+
 .hero {
-  display:flex;
-  flex-direction: column;
-  max-width: 800px;
-  text-align:center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    text-align: center;
 }
-.hero h1{
-  margin: 0 5.9px 60px 0;
+
+.hero h1 {
+    margin: 0 5.9px 60px 0;
 }
-.hero h2{
-  margin: 1.1px 7.7px 11.5px 0; 
-  line-height:26.8px;
-  
+
+.hero h2 {
+    margin: 1.1px 7.7px 11.5px 0;
+    line-height: 26.8px;
+
 }
-.footer{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 13px 20px 20px 20px;
-  background: #FFF;
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 20px 20px 20px;
+    background: #FFF;
 }
