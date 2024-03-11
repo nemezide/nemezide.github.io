@@ -44,7 +44,7 @@ a:hover {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1.1px;
-  padding-left:1px;
+  margin-left:1.7px;
 } 
 .wrapper {
   width: 1000px;
@@ -70,13 +70,13 @@ a:hover {
   display: flex;
   gap: 15.59px;
   list-style: none; 
-  margin: 0;
+  margin: 0 1px 0 0;
   padding:0;
  }
 .breadcrumb {
   display: flex;
   width:100%;
-  margin:0 0 56px 0;
+  margin:0 0 56px 2px;
 }
 .breadcrumb a{
   text-decoration: underline;
