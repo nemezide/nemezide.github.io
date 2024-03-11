@@ -39,7 +39,7 @@ a {
 a:hover {
   color: grey;
 }
-.logo {
+#logo {
   font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
@@ -47,7 +47,7 @@ a:hover {
   padding-left:1px;
 } 
 .wrapper {
-  max-width: 1000px;
+  width: 1000px;
   margin: 0 auto;
 }
 .main {
@@ -107,6 +107,7 @@ a:hover {
 .hero h2{
   margin: 1.1px 7.7px 11.5px 0; 
   line-height:26.8px;
+  
 }
 .footer{
   display: flex;
